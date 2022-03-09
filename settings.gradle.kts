@@ -1,0 +1,1 @@
+rootProject.name = "aps.com.ktor-crud"
