@@ -1,6 +1,7 @@
 package aps.com
 
 import aps.com.routes.registerCustomerRoutes
+import aps.com.routes.registerOrderRouting
 import io.ktor.application.*
 import io.ktor.features.*
 import io.ktor.serialization.*
@@ -14,4 +15,5 @@ fun Application.module() {
         json()
     }
     registerCustomerRoutes()
+    registerOrderRouting()
 }
